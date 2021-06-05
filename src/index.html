@@ -1,4 +1,3 @@
-# Соболев Кирилл
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,6 +11,8 @@
 
 
     <title>Андрей Браун - Веб-разработчик</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -44,77 +45,71 @@
     </div>
 
     <div class="me">
-        <div class="title">
+        <div class="text_me">
 
             <h2>ОБО МНЕ</h2>
 
-            <img src="img/andr.jpg" alt="" width="200" height="200">
+            <p class="me1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam id ex odio quis expedita iure suscipit earum perspiciatis voluptate delectus?</p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam id ex odio quis expedita iure suscipit earum perspiciatis voluptate delectus?</p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cum sint cumque, voluptas, unde aliquid minima placeat rem ullam. Rerum sit qui voluptates, sequi voluptas soluta aliquam nobis magnam aspernatur.</p>
-
-            <img src="img/down.png" alt="" width="30" height="30">
+            <p class="me2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cum sint cumque, voluptas, unde aliquid minima placeat rem ullam. Rerum sit qui voluptates, sequi voluptas soluta aliquam nobis magnam aspernatur.</p>
 
             <input type="submit" value="Скачать резюме">
         </div>
     </div>
 
     <div class="skill">
-        <div class="title">
+        <div class="skl">
 
             <h2>ЧТО Я УМЕЮ</h2>
+            <div class="skl__box">
 
-            <img src="img/comp.png" alt="" width="50" height="50">
-            <h4>Веб-дизайнер</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam delectus, dolor nihil et odio placeat. </p>
+                <span>Веб-дизайнер</span>
+                <span>Разработка</span>
+                <span>CEO-Оптимизация</span>
+                <span>Маркетинг</span>
 
-            <img src="img/i.webp" alt="" width="50" height="50">
-            <h4>Разработка</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem aspernatur optio ratione repudiandae itaque omnis!</p>
+            </div>
+            <p class="web">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam delectus, dolor nihil et odio placeat. </p>
 
-            <img src="img/raketa.jpg" alt="" width="50" height="50">
-            <h4>CEO-Оптимизация</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia commodi placeat, perspiciatis sint a magnam impedit odio nihil, illum similique.</p>
+            <p class="dev">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem aspernatur optio ratione repudiandae itaque omnis!</p>
 
-            <img src="img/rupor1.png" alt="" width="50" height="50">
-            <h4>Маркетинг</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio repellendus, eos, illum ipsum minus vitae.</p>
+            <p class="ceo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia commodi placeat, perspiciatis sint a magnam impedit odio nihil, illum similique.</p>
+
+            <p class="opt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio repellendus, eos, illum ipsum minus vitae.</p>
         </div>
     </div>
 
     <div class="keys">
-        <div class="title">
+        <div class="title__ks">
 
             <h2>КЕЙСЫ</h2>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At magnam perferendis possimus commodi minima, eum!</p>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At magnam perferendis possimus commodi minima, eum!</p>
 
-            <img src="img/developer.png" alt="" width="800" height="800">
-
-            <h4><em>CLIENT</em></h4>
-            <p>Company Microsoft</p>
-
-            <h4><em>WEBSITE</em></h4>
-            <a href="https://www.microsoft.com/ru-ru">https://www.microsoft.com/ru-ru</a>
-            <form action="https://www.microsoft.com/en-gb?spl=2">
-                <button type="submit">VISIT LIVE SITE</button>
-            </form>
-
-            <h4>Название проекта</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolorum, error sunt, aspernatur quae assumenda porro quam quo delectus repellat fuga, ab adipisci, numquam totam saepe vero dignissimos placeat natus ipsam molestias eos provident incidunt. Excepturi nobis fugit, optio maiores, dolore odio obcaecati est esse deleniti exercitationem accusamus maxime perferendis?</p>
+            <div class="client">
+                <h4>CLIENT</h4>
+                <p>Company Microsoft</p>
+            </div>
+            <p class="des">Название проекта<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolorum, error sunt, aspernatur quae assumenda porro quam quo delectus repellat fuga, ab adipisci, numquam totam saepe vero dignissimos placeat natus ipsam molestias eos provident incidunt. Excepturi nobis fugit, optio maiores, dolore odio obcaecati est esse deleniti exercitationem accusamus maxime perferendis?</p>
+            <div class="website">
+                <h4>WEBSITE</h4>
+                <a href="https://www.microsoft.com/ru-ru">https://www.microsoft.com</a>
+            </div>
+            <br>
+            <br>
+            <a href="https://www.microsoft.com/en-gb?spl=2">VISIT LIVE SITE</a>
         </div>
     </div>
 
     <div class="calc">
-        <div class="title">
+        <div class="title__calc">
             <form action="#">
 
                 <h2>Расчет стоимости</h2>
-                <h3>ТИП САЙТА</h3>
+                <p class="type_site">ТИП САЙТА</p>
 
-                <select name="list1" id="list">
-                    <option value="Opt0">-</option>
+                <select name="list1" id="list_type">
+                    <option value="Opt0">Выберите пункт...</option>
                     <option value="Opt1">Визитка</option>
                     <option value="Opt2">Корпоративный</option>
                     <option value="Opt3">Промо</option>
@@ -123,10 +118,10 @@
                     <option value="Opt6">Портал</option>
                 </select>
 
-                <h3>ДИЗАЙН</h3>
+                <p class="design">ДИЗАЙН</p>
 
-                <select name="list1" id="list">
-                    <option value="Opt0">-</option>
+                <select name="list2" id="list_dis">
+                    <option value="Opt0">Выберите пункт...</option>
                     <option value="Opt7">Классика</option>
                     <option value="Opt8">Гранж (Хипстерский стиль)</option>
                     <option value="Opt9">Минимализм</option>
@@ -138,113 +133,105 @@
                     <option value="Opt15">Flat дизайн</option>
                 </select>
 
-                <h3>АДАПТИВНОСТЬ</h3>
+                <p class="adaptability">АДАПТИВНОСТЬ</p>
 
-                <select name="list1" id="list">
-                    <option value="Opt0">-</option>
+                <select name="list3" id="list_adpt">
+                    <option value="Opt0">Выберите пункт...</option>
                     <option value="Opt16">Присутствует</option>
                     <option value="Opt17">Отсутствует</option>
                 </select>
             </form>
 
-            <p><strong>
-                    <h4>Сроки <span>0</span></h4>
-                </strong></p>
-            <p><strong>
-                    <h4>Стоимость <span>0</span></h4>
-                </strong></p>
+            <div class="score">
+                <p class="srok">
+                    Сроки</p> <span class="calc_1">0</span> <br>
+                <p class="stoim">Стоимость</p> <span class="calc_2">0</span>
+
+            </div>
         </div>
     </div>
 
     <div class="statis">
-        <div class="title">
-
+        <div class="heading">
             <h2>НЕМНОГО СТАТИСТИКИ</h2>
-
-            <img src="img/smail.jpg" alt="" width="50" height="50">
-            <p><strong>
-                    <h2>120</h2>
-                </strong></p>
-            <p><strong>
-                    <h5>СЧАСТЛИВЫХ КЛИЕНТОВ</h5>
-                </strong></p>
-
-            <img src="img/i.webp" alt="" width="50" height="50">
-            <p><strong>
-                    <h2>4,600</h2>
-                </strong></p>
-            <p><strong>
-                    <h5>ЧАСОВ РАБОТЫ</h5>
-                </strong></p>
-
-            <img src="img/icon.jpg" alt="" width="50" height="50">
-            <p><strong>
-                    <h2>340</h2>
-                </strong></p>
-            <p><strong>
-                    <h5>ПРОЕКТОВ ЗАВЕРШЕНО</h5>
-                </strong></p>
-
-            <img src="img/prise.png" alt="" width="50" height="50">
-            <p><strong>
-                    <h2>23</h2>
-                </strong></p>
-            <p><strong>
-                    <h5>НАГРАД ПОЛУЧЕНО</h5>
-                </strong></p>
         </div>
+        <div class="statis__box">
+
+            <span>120</span>
+            <span>4,600</span>
+            <span>340</span>
+            <span>23</span>
+        </div>
+        <div class="box">
+            <p>СЧАСТЛИВЫХ КЛИЕНТОВ</p>
+            <p>ЧАСОВ РАБОТЫ</p>
+            <p>ПРОЕКТОВ ЗАВЕРШЕНО</p>
+            <p>НАГРАД ПОЛУЧЕНО</p>
+
+        </div>
+
+
+
     </div>
 
     <div class="comment">
-        <div class="title">
+        <div class="otz">
 
             <h2>ОТЗЫВЫ</h2>
 
-            <img src="img/otz.jpg" alt="" width="50" height="50">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero adipisci omnis nesciunt! Vel voluptas delectus harum, necessitatibus aperiam animi accusantium!</p>
-            <p><strong>Михаил</strong>, Ген директор ООО "ГазПром"</p>
+            <p class="comm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam reiciendis, impedit quo, deleniti perferendis ducimus modi ratione, placeat obcaecati facilis odit voluptatum dolores. Beatae dolore quo, non nihil voluptatem repellat?</p>
+            <p class="who"><strong>Михаил</strong>, Ген директор ООО "ГазПром"</p>
         </div>
     </div>
 
     <div class="contact">
-        <div class="title">
+        <div class="contact_head">
 
             <h2>МОИ КОНТАКТЫ</h2>
+        </div>
 
+        <div class="desc">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, eius debitis! Harum repellendus explicabo quibusdam.</p>
+        </div>
+        <div class="cont_box">
+            <p class="street">Саранск<br>Пролетарская улица, 90</p>
 
-            <img src="img/jps.png" alt="" width="25" height="25">
-            <p>Саранск<br>Пролетарская улица, 90</p>
+            <p class="mail">info@emailcompany</p>
 
-            <img src="img/email-icon.jpg" alt="" width="25" height="25">
-            <p>info@emailcompany</p>
+            <p class="number">+7 999 999-99-99</p>
 
-            <img src="img/mobile.png" alt="" width="25" height="25">
-            <p>+7 999 999-99-99</p>
-
-            <h4>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4>
-
+        </div>
+        <h4>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4>
+        <div class="field">
             <form action="">
                 <input type="text" name="name" placeholder="Имя">
                 <input type="text" name="Email" placeholder="Email">
-                <textarea name="messages" id="" cols="50" rows="5" placeholder="Сообщение"></textarea>
             </form>
+        </div>
 
+        <div class="mess">
+            <form action="">
+                <input type="text" name="messages" placeholder="Сообщение">
+            </form>
+        </div>
+
+        <div class="button_cont">
             <input type="submit" value="Отправить">
-
-            <a href="https://ru-ru.facebook.com/"><img src="img/facebook.png" alt="" width="25" height="25"></a>
-            <a href="https://twitter.com/"><img src="img/twiter.png" alt="" width="25" height="25"></a>
-            <a href="https://dribbble.com/"><img src="img/basket.webp" alt="" width="25" height="25"></a>
-            <a href="не_знаю_такую_соцсеть"><img src="img/caat.jpg" alt="" width="25" height="25"></a>
-            <a href="https://www.instagram.com/"><img src="img/inst.png" alt="" width="25" height="25"></a>
-            <a href="https://www.linkedin.com/"><img src="img/in.png" alt="" width="25" height="25"></a>
+        </div>
+        <div class="icon">
+            <a href="https://ru-ru.facebook.com/"><img src="img/facebook.png" alt="" width="16" height="29"></a>
+            <a href="https://twitter.com/"><img src="img/twiter.png" alt="" width="25" height="23"></a>
+            <a href="https://dribbble.com/"><img src="img/basket.webp.png" alt="" width="27" height="27"></a>
+            <a href="не_знаю_такую_соцсеть"><img src="img/caat.jpg.png" alt="" width="27" height="27"></a>
+            <a href="https://www.instagram.com/"><img src="img/inst.png" alt="" width="27" height="27"></a>
+            <a href="https://www.linkedin.com/"><img src="img/in.png" alt="" width="27" height="26"></a>
         </div>
     </div>
 
     <div class="map">
         <div class="title">
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1167.2553043277474!2d45.17676864203509!3d54.18874258415989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414408c04a117b75%3A0x940f959d75e75839!2z0J_RgNC-0LvQtdGC0LDRgNGB0LrQsNGPINGD0LsuLCA5MCwg0KHQsNGA0LDQvdGB0LosINCg0LXRgdC_LiDQnNC-0YDQtNC-0LLQuNGPLCA0MzAwMTY!5e0!3m2!1sru!2sru!4v1622055672355!5m2!1sru!2sru" width="900" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1167.2553043277474!2d45.17676864203509!3d54.18874258415989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414408c04a117b75%3A0x940f959d75e75839!2z0J_RgNC-0LvQtdGC0LDRgNGB0LrQsNGPINGD0LsuLCA5MCwg0KHQsNGA0LDQvdGB0LosINCg0LXRgdC_LiDQnNC-0YDQtNC-0LLQuNGPLCA0MzAwMTY!5e0!3m2!1sru!2sru!4v1622055672355!5m2!1sru!2sru" width=100% height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </div>
 

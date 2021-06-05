@@ -1,0 +1,528 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+
+.menu {
+    float: left;
+    padding-left: 432px;
+}
+
+.menu li {
+    float: left;
+    line-height: 60px;
+    color: white;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main {
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+}
+
+.title__container {
+    float: left;
+    margin: 432px 0px 0px 404px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title__container h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.title__container h4 {
+    margin-top: 40px;
+    font-size: 20px;
+    color: #79818d;
+}
+
+.title__container input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 50px 14px 0px 14px;
+}
+
+.me {
+    width: 100%;
+    height: 760px;
+    box-shadow: 0px -15px 80px;
+    background: url(../img/down.png) 932px 642px/20px 20px no-repeat, url(../img/darkboy.jpg) 905px 225px/200px 200px no-repeat;
+}
+
+.text_me > h2 {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 108px 50% 31px 930px;
+    white-space: nowrap;
+    padding-bottom: 30px;
+    border-bottom: 4px solid #d17700;
+}
+
+.me1 {
+    font-size: 18px;
+    white-space: normal;
+    margin: 257px 500px 46px 630px;
+}
+
+.me2 {
+    font-size: 18px;
+    white-space: normal;
+    margin: 0px 500px 37px 630px;
+}
+
+.text_me input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px 0px 46px;
+    margin: 0px 500px 0px 920px;
+}
+
+.skill {
+    width: 100%;
+    height: 521px;
+    background: url(../img/rupor1.png)1505px 230px/60px 60px no-repeat, url(../img/raketa.png)1150px 230px/60px 60px no-repeat, url(../img/skobki.png)780px 230px/80px 60px no-repeat, url(../img/comp.png)445px 230px/70px 60px no-repeat, url(../img/fonskill.jpg)no-repeat;
+}
+
+.skl > h2 {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 108px 50% 31px 920px;
+    white-space: nowrap;
+    padding-bottom: 30px;
+    border-bottom: 4px solid #d17700;
+}
+
+.skl__box {
+    color: #cf7600;
+    margin: 108px 0px 0px 400px;
+    word-spacing: 180px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.web {
+    display: inline-block;
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin: 30px 0px 0px 380px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.dev {
+    display: inline-block;
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin: 30px 0px 0px 140px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.ceo {
+    display: inline-block;
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin: 30px 0px 0px 155px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.opt {
+    display: inline-block;
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin: 30px 0px 0px 165px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.keys {
+    width: 100%;
+    height: 1400px;
+    background-color: white;
+    background: url(../img/bgfoto.png)0px 280px/1600px 900px no-repeat;
+}
+
+.title__ks h2 {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 108px 50% 31px 950px;
+    white-space: nowrap;
+    padding-bottom: 30px;
+    border-bottom: 4px solid #d17700;
+}
+
+.description {
+    text-align: center;
+    font-size: 19px;
+    text-indent: 130px;
+}
+
+.client {
+
+    display: inline-block;
+    margin-top: 750px;
+    text-indent: 400px;
+    font-size: 22px;
+    font-style: normal;
+}
+
+.client p {
+
+    display: inline-block;
+    margin-top: 10px;
+    text-indent: 400px;
+    font-size: 22px;
+    font-style: normal;
+}
+
+.website {
+
+    display: inline-block;
+    margin-top: -40px;
+    text-indent: 400px;
+    font-size: 22px;
+    font-style: normal;
+}
+
+.website a {
+
+    display: block;
+    margin-top: 10px;
+    margin-right: 100%;
+    text-indent: 400px;
+    font-size: 22px;
+    font-style: normal;
+}
+
+.des {
+
+    display: inline-block;
+    margin-left: 800px;
+    margin-top: -60px;
+    margin-right: 350px;
+    font-size: 20px;
+    word-spacing: 3px;
+    line-height: 25px;
+}
+
+.title__ks > a {
+    font-size: 25px;
+    color: white;
+    display: inline-block;
+    border: 1px solid #63b5ae;
+    border-radius: 8px;
+    padding: 15px 40px;
+    margin: 15px 0px 0px 400px;
+    background-color: #63b5ae;
+}
+
+.calc {
+    height: 800px;
+    width: 100%;
+}
+
+.title__calc h2 {
+    margin-left: 840px;
+    font-size: 40px;
+    margin-bottom: 60px;
+    font-weight: bolder;
+}
+
+.type_site {
+    color: #1c2534;
+    margin-left: 560px;
+    font-size: 28px;
+}
+
+#list_type {
+    margin-top: 22px;
+    margin-left: 560px;
+    height: 56px;
+    width: 894px;
+    border: 1px solid #eee;
+    background-color: #eee;
+    color: #696969;
+}
+
+.design {
+    color: #1c2534;
+    margin-top: 47px;
+    margin-left: 560px;
+    font-size: 28px;
+}
+
+#list_dis {
+    margin-top: 22px;
+    margin-left: 560px;
+    height: 56px;
+    width: 894px;
+    border: 1px solid #eee;
+    background-color: #eee;
+    color: #696969;
+}
+
+.adaptability {
+    color: #1c2534;
+    margin-top: 47px;
+    margin-left: 560px;
+    font-size: 28px;
+}
+
+#list_adpt {
+    margin-top: 22px;
+    margin-left: 560px;
+    height: 56px;
+    width: 894px;
+    border: 1px solid #eee;
+    background-color: #eee;
+    color: #696969;
+}
+
+.score {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1c2534;
+    display: inline-block;
+    border-top: 4px solid #d1d1d1;
+    margin: 40px 0px 0px 560px;
+    padding: 20px -30px 20px 0px;
+}
+
+.srok {
+    display: inline-block;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.calc_1 {
+    font-size: 25px;
+    display: inline-block;
+    text-align: right;
+    margin-left: 800px;
+}
+
+.stoim {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.calc_2 {
+    font-size: 25px;
+    display: inline-block;
+    text-align: right;
+    margin-left: 753px;
+}
+
+.statis {
+    width: 100%;
+    height: 500px;
+    background: url(../img/prise.png)1385px 270px no-repeat, url(../img/icon.jpg.png)1110px 270px no-repeat, url(../img/skobki.png)798px 270px no-repeat, url(../img/smail.jpg.png)498px 270px no-repeat, url(../img/fonstatis.jpg)no-repeat;
+}
+
+.heading {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 108px 50% 31px 810px;
+    white-space: nowrap;
+    padding-bottom: 30px;
+    border-bottom: 4px solid #d17700;
+}
+
+.statis__box {
+    font-size: 40px;
+    font-weight: 600;
+    color: #323e4f;
+    display: inline-block;
+    margin: 150px 0px 0px 490px;
+    padding-right: 400px;
+    word-spacing: 212px;
+}
+
+.box {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 420px;
+
+
+}
+
+.box p {
+    font-size: 18px;
+    color: #323e4f;
+    font-weight: 500;
+    display: inline-block;
+    padding-right: 115px;
+}
+
+.comment {
+    width: 100%;
+    height: 580px;
+    background: url(../img/point_1.png)990px 540px no-repeat, url(../img/point_1.png)970px 540px no-repeat, url(../img/point_orange.png)950px 540px no-repeat, url(../img/otz.jpg.png)930px 230px no-repeat;
+}
+
+.otz h2 {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 108px 50% 31px 910px;
+    white-space: nowrap;
+    padding-bottom: 30px;
+    border-bottom: 4px solid #d17700;
+}
+
+.comm {
+    font-size: 19px;
+    color: #323e4f;
+    display: inline-block;
+    text-align: center;
+    margin: 180px 580px 0px 630px;
+}
+
+.who {
+    font-size: 19px;
+    color: #323e4f;
+
+    margin-top: 38px;
+    text-indent: 800px;
+}
+
+.contact {
+    color: white;
+    width: 100%;
+    height: 806px;
+    background: url(../img/mobile.png)1210px 250px no-repeat , url(../img/email-icon.jpg.png)935px 250px no-repeat , url(../img/jps.png)635px 250px no-repeat ,url(../img/bgcontact.jpg)no-repeat;
+}
+
+.contact_head {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 90px 50% 31px 840px;
+    white-space: nowrap;
+    padding-bottom: 30px;
+    border-bottom: 4px solid #d17700;
+}
+
+.desc {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.cont_box {
+    margin-top: 75px;
+    font-size: 18px;
+    padding-left: 540px;
+}
+
+.street {
+    text-align: center;
+    display: inline-block;
+    margin-right: 114px;
+}
+
+.mail {
+    display: inline-block;
+    margin-right: 114px;
+}
+
+.number {
+    display: inline-block;
+}
+
+.contact h4 {
+    margin-top: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 790px;
+}
+
+.field {
+    margin-top: 47px;
+    padding-left: 600px;
+}
+
+.field input {
+    margin-right: 30px;
+    padding-left: 15px;
+    width: 352px;
+    height: 34px;
+    overflow: auto;
+    font-size: 18px;
+}
+
+.mess {
+    margin-top: 15px;
+}
+
+.mess input {
+    width: 738px;
+    height: 94px;
+    margin-left: 600px;
+    overflow: auto;
+    padding-left: 15px;
+}
+
+.button_cont input {
+    color: white;
+    font-size: 25px;
+    background: rgba(255, 48, 52, 0);
+    border: 4px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0px 0px 895px;
+}
+.icon {
+    margin-top: 41px;
+    text-indent: 753px;
+    word-spacing: 49.8px;
+}
+.autro {
+    width: 100%;
+    height: 60px;
+    background: #344051;
+    color: white;
+    font-size: 18px;
+    line-height: 60px;
+    padding-left: 775px;
+    float: left;
+}
